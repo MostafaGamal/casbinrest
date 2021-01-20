@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/casbin/casbin"
-	"github.com/labstack/echo"
-	"github.com/prongbang/casbinrest"
+	"github.com/casbin/casbin/v2"
+	"github.com/labstack/echo/v4"
+	"github.com/MostafaGamal/casbinrest"
 	"github.com/stretchr/testify/assert"
 )
 
